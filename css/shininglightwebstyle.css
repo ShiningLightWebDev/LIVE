@@ -1,0 +1,332 @@
+/* Page Setup */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+table, caption, tbody, tfoot, thead, tr, th, td, 
+ul, ol, li , nav, button, input, figure, figcaption, 
+aside, element, section, img {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+body {
+	background-color: #FFFFFF;
+	font-family: arial;
+}
+ul, ol  {
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px 10px;
+}
+ul li, ol li {
+	background-image: url(../images/star.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	padding-left: 25px; 
+}
+h1, h2 {
+	margin-top: 10px;
+}
+h1 {
+	font-size: 24px;
+}
+h2 {
+	font-size: 20px;
+}
+h3 {
+	font-size: 16px;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+p {
+	/*margin: 5px;*/
+}
+nav a:link,
+nav a:visited {
+	text-decoration: none;
+	color: #00AAFF;
+	background: #FFFFFF;
+}
+nav a:hover {
+	text-decoration: none;
+	color: #00DD99;
+	background: #FFFFFF;
+}
+b {
+	color: #00DD99;
+}
+img {
+	border-radius: 7px;
+}
+
+/* Mobile First Styling */
+/* Header, footer, index styling */
+#header {
+	width: 100%;
+	height: auto;
+	background: #250052;
+}
+#top-nav {
+	display: none;
+}	
+#to-mobile-menu, #mobilemenu {
+	display: block;
+	font-size: 1.4em;
+}
+#to-mobile-menu {
+	width: 100%;
+	background: #00dd99;
+	color: #FFFFFF;
+	padding: 10px;
+	text-align: center;
+}
+#to-mobile-menu a {
+	color: #250052;
+	background: #FFFFFF;
+}
+#mobilemenu ul li {
+	background: none;
+}
+#banner{
+	text-align: center;
+	width: 80%;
+	color: #FFFFFF;
+	margin: auto;
+	position: relative;
+	padding: 10px 0;
+}
+#banner img {
+	display: inline;
+	margin: auto;
+}
+#banner img.desktop {
+	display: none;
+}
+nav a {
+	font-size: 1.4em;
+}
+h1, h2, h3, h4, h5, h6, hgroup {
+	font-size: 1.2em;
+}
+#main {
+	width: 80%;
+	margin: auto;
+	color: #250052;
+	background-color: #ffffff;
+	font-size: 1.2em;
+}
+#primary {
+	width: 100%;
+	padding: 5%;
+	margin: auto;
+	float: left;
+	border-left: 1px solid;
+}
+.caption img {
+	display: block;
+	clear: both;
+	float: none;
+}
+#techsum-1, #techsum-2, #techsum-3 {
+	width: 100%;
+}
+.summary .caption p {
+	display: none;
+}
+#banner h1 {
+	display: inline;
+}
+#banner a {
+	text-decoration: none;
+	color: #00AAFF;
+	background: #250052;
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+}
+#footer {
+	width: 100%;
+	border-top: 2px solid #250052;
+	padding-top: 15px;
+	margin-top: 30px;
+	clear: both;
+}
+
+/* Index Page Styles */
+#stockphoto {
+	float: left;
+	margin-right: 10px;
+	max-width: 100%;
+}
+#profileSec {
+	display: inline;
+	float: left;
+	padding: 0 30px 30px 0;
+}
+#profilePic {
+	width: 250px;
+}
+#profileInfo {
+	display: inline;
+	padding: 0 0 30px 0;
+}
+/* Resume Page Styles */
+#skillset {
+	margin: auto;
+	clear: right;
+	border: 5px #250052 double;
+	width: 95%;
+	overflow: hidden;
+	padding: 5px 0px 5px 15px;
+	border-radius: 7px;
+}
+#skillset div h3 {
+	margin-top: 10px;
+}
+.workentry {
+	margin: 10px 10px 0px 20px;
+}
+.jobtitle, .company {
+	float: left;
+	clear: both;
+}
+.period {
+	float: right;
+	font-size: 14px;
+	vertical-align: text-bottom;
+}
+.tasks {
+	clear: both;
+}
+.tasks b {
+	color: #00DD99;
+	font-size: 1.25em;
+	font-weight: normal;
+}
+.techsum li {
+	list-style: none;
+}
+/* Previous Work Styling */
+#wip p {
+	padding: 10px 0 0;
+	}
+#breakdown img{
+	padding: 10px 0px;
+}
+.caption, #next {
+	margin: auto;
+	display: block;
+	clear: both;
+	padding: 20px 0px;
+}
+#next {
+	width: 90%;
+}
+.caption img {
+	display: inline;
+	float: left;
+	margin: 10px;
+}
+.caption h3{
+	display: block;
+	margin: 10px 0;
+}
+.caption p {
+	padding-top: 10px;
+}
+.hidden {
+	display: none;
+}
+.unhidden {
+	display: block;
+}
+
+/* BlogsAndIdeas Styling */
+.intro {
+	padding-top: 10px;
+}
+.questionandanswer {
+	margin-left: 20px;
+	padding: 10px;
+}
+.question {
+	font-weight: bold;
+	margin-bottom: -5px;
+}
+.answer {
+	margin: 5px;
+	padding-top: 5px;
+}
+
+/* WinCalcEm Styling */
+.center {
+	width: 30%;
+	margin: auto;
+	}
+table {
+	border: 2px solid #250052;
+	align: center;
+	padding: 5px;
+	margin: 5px;
+}
+table td {
+	padding: 1px;
+	background-color: white;
+}
+td.gray {
+	background-color: #C0C0C0;
+	height: 20px;
+	}
+
+@media only screen and (min-width: 768px) {
+#to-mobile-menu, #mobilemenu {
+	display: none;
+}
+#top-nav {
+	display: block;
+	text-align: left;
+	width: 20%;
+	float: left;
+	margin-bottom: 30px;
+	font-size: 14px;
+}
+#top-nav ul  li{
+	padding: 10px 0 0;
+	background: none;
+}
+#top-nav ul li div {
+	border-bottom: 1px solid;
+	width: 100%;
+}
+#top-nav ul li ul {
+	margin: 0 0 0 15px;
+}
+#banner {
+	text-align: left;
+}
+#banner img {
+	display: inline;
+	margin: 10px;
+}
+#banner img.mobile {
+	display: none;
+}
+#banner img.desktop {
+	display: inline;
+}
+#primary {
+	padding: 15px;
+	width: 75%;
+}
+.summary .caption p {
+	display: block;
+}
+#techsum-1, #techsum-2, #techsum-3 {
+	width: 48%;
+	float: left;
+}
+#footer {
+	font-size: .8em;
+}
+}
