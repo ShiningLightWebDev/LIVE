@@ -1,0 +1,100 @@
+/* Page Setup */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+table, caption, tbody, tfoot, thead, tr, th, td, ul, ol, li {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+body {
+	color: #000064;
+	font-size: 100%;
+}
+h1, h2 {
+	margin-top: 10px;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+/* Page Layout */
+#main {
+	width: 60%;
+	margin: auto;
+	clear: both;
+}
+#top-nav {
+	float: right;
+}
+#banner img{
+	width: 100%;
+	height: auto;
+}
+#primary {
+	padding: 15px;
+	margin: auto;
+}
+#start, #content{
+	overflow: auto;
+	width: 100%;
+	float: left;
+}
+#footer {
+	font-size: .8em;
+	border-top: 2px solid #000064;
+	padding-top: 15px;
+	margin-top: 20px;
+	clear: both;
+}
+@media only screen and (min-width: 960px) and (max-width: 970px) {
+	body {
+	-webkit-transform : rotate(180deg);
+	-moz-transform : rotate(180deg);
+	-o-transform : rotate(180deg);
+	transform : rotate(180deg); 
+	}
+}
+
+/* Style Elements */
+#nav {
+	width: 15%;
+	border: 3px solid #000064;
+	padding: 3px;
+	float: left;
+}
+#rules {
+	width: 80%;
+	float: left;
+	padding-left: 15px;
+	/* border:3px solid #000064; */
+}
+#start {
+	height: 300px;
+}
+
+.button {
+	padding: 5px;
+	background-color: #dddddd;
+	border: 1px solid #666666;
+	color: #000000;
+	text-decoration: none;
+	text-align: center;
+	line-height: 95px;
+	width: 30%;
+	height: 95px;
+	margin: 95px 35%;
+	float: left;
+}
+p {
+	padding-left: 20px;
+}
+ul{
+	list-style-type: circle;
+	padding-left: 20px;
+}
+ol{
+	padding-left: 20px;
+}
+li p {
+	padding-left: 0px;
+}

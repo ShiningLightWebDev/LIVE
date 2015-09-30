@@ -1,0 +1,61 @@
+/* Page Setup */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+table, caption, tbody, tfoot, thead, tr, th, td, ul, ol, li {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+body {
+	color: #000064;
+	font-size: 100%;
+}
+
+h1, h2 {
+	margin-top: 10px;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+/* Mobile Page Layout */
+#banner img{
+	width: 100%;
+	height: auto;
+}
+#main {
+	width: 100%;
+	margin: auto;
+	clear: both;
+}
+#nav {
+	display: none;
+}
+#rules{
+	width: 95%;
+	font: 1.15em, arial, sans-serif;
+	float: left;
+}
+
+/* Element Styling */
+h1, h2, h3, h4, h5, h6 {
+	color: #cc0000;
+}
+#start {
+	height: 300px;
+}
+.button {
+	padding: 5px;
+	background-color: #dddddd;
+	border: 1px solid #666666;
+	color: #000000;
+	font-size: 3em;
+	text-decoration: none;
+	text-align: center;
+	line-height: 95px;
+	width: 30%;
+	height: 100px;
+	margin: 95px 35%;
+	float: left;
+}

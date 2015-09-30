@@ -1,0 +1,93 @@
+/* reset page to ignore browser styling */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+table, caption, tbody, tfoot, thead, tr, th, ul, ol, li {
+  margin: 0;
+  padding: 0;
+  border: 0;
+	}
+/* table is now 100% of the parent element, borders will collapse */
+/* into one another to form a single border between cells */
+table {
+	width: 100%;
+	border-collapse: collapse;
+	}
+/* make the TH and TD elements look the way we want */
+/* the table header for this table covers four columns, this can be */
+/* modified for fixed column widths, will need to add 16px to */
+/* the last column */
+th {
+	font-weight: bold;
+	height: 20px;
+	width: 516px;
+	border: 2px solid #000;
+	}
+td {
+	height: 15px;
+	border: 2px solid #000;
+	text-align: center;
+	}
+tr {
+	height: 15px;
+}
+
+tfoot td {
+	height: 20px;
+	width: 100%;
+}
+/* set width and height of table container, add 16px for scrollbar */
+div.results-table {
+	clear: both;
+	height: 409px;
+	width: 516px;
+	margin: auto;
+	overflow: auto;
+	}
+html>body div.results-table {
+	overflow: hidden;
+	width: 516px;
+}
+/* define width of table for IE browsers only for consistent cell size */
+/* across browsers */
+div.results-table table {
+	width: 500px;
+	overflow: auto;
+}
+/* set overflow to "hidden" for non-IE browsers, add 16px for scroll bar */
+/* for consistent cell-sizing across browsers */
+html>body div.results-table table{
+	width: 516px;
+	overflow: hidden;
+}
+/* set table header to a fixed position. WinIE 6.x only */
+/* In WinIE 6.x, any element with a position property set to relative and */
+/* is a child of an element that has an overflow property set, the relative */
+/* value translates into fixed. Ex: parent element DIV with a class of */ 
+/* results-table has an overflow property set to auto */
+thead.fixed tr {
+	position: relative;
+}
+/* set THEAD element to have block level attributes. All other non-IE */
+/* browsers this enables overflow to work on TBODY element. All other */
+/* non-IE, non-Mozilla browsers */
+html>body thead.fixed tr {
+	display: block;
+	height: 20px;
+}
+/* define the table content to be scrollable */
+/* set TBODY element to have block level attributes. All other non-IE */ 
+/* browsers this enables overflow to work on TBODY element. All other */
+/* non-IE, non-Mozilla browsers induced side effect is that child TDs no */
+/* longer accept "width: auto" */
+html>body tbody.scrolling {
+	display: block;
+	height: 360px;
+	overflow: auto;
+	width: 100%
+}
+/* define width of TD elements */
+/* All other non-IE browsers */
+/* http://www.w3.org/TR/REC-CSS2/selector.html#adjacent-selectors */
+html>body tbody.scrolling td {
+	width: 125px;
+}

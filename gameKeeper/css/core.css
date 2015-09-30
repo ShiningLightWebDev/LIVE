@@ -1,0 +1,4 @@
+@import url("screen.css"); 
+@import url("handheld.css") handheld; 
+@import url("handheld.css") only screen and
+	(max-width:960px);
