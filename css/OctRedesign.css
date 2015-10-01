@@ -1,0 +1,56 @@
+body, article, aside, div, footer, header, hgroup, main, nav, section, ul, menu, dir, a, li, img, h2, p {
+	margin: 0;
+	-webkit-margin-before: 0px;
+	-webkit-margin-after: 0px;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	padding: 0;
+	-webkit-padding-start: 0px;
+	-webkit-padding-end: 0px;
+	text-decoration: none;
+	list-style-type: none;
+}
+body {
+	width: 100%;
+}
+.col-sm-4, .col-xs-4 {
+	display: inline;
+	width: 33.33%;
+	float: left;
+}
+.col-sm-8, .col-xs-8 {
+	display: inline;
+	width: 66.67%;
+	float: left;
+}
+.col-lg-4, .col-xs-12 {
+	width: 100%;
+	display: block;
+}
+.desktop {
+	display: none;
+}
+nav {
+	height: auto;
+	overflow: hidden;
+}
+#social-nav ul li{
+	display: inline;
+	float: left;
+}
+@media screen and (min-width: 768px) {
+	.mobile {
+		display: none;
+	}
+	.desktop {
+		display: block;
+	}
+	#mobile-menu {
+		display: none;
+	}
+	.col-lg-4 {
+		width: 33.3%;
+		display: inline;
+		float: left;
+	}
+}
