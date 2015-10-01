@@ -118,10 +118,10 @@ include_once("../header.php");
 		at work, talking about work, thinking about work, and with people from
 		work. I would like that time to be well-spent, and to contribute to
 		my personal life as well as my professional. So, for example, I would
-		consider attending a Linux conference personal development. It probably
+		consider attending a Scrapbooking conference personal development. It probably
 		won't add significantly to my work ability, but it will make me a
-		happier person if I can go mingle with other tech professionals, make
-		new contacts, and maybe learn a few tips or tricks that would help make
+		happier person if I can go mingle with other creative people, make
+		new contacts, and maybe learn a few design tips or tricks that would help make
 		my work easier. One company I contracted with offered a flexible 
 		schedule, and one employee used this to take flight classes.
 		</p>			

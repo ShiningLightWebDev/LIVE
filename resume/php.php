@@ -4,7 +4,7 @@ include('../header.php');
 					<div class='workentry'>
 						<hgroup>
 							<h3 class='jobtitle'>Front End Developer</h3>
-							<h3 class='company'>Red Minnow Interactive</h3>
+							<h4 class='company'>Red Minnow Interactive</h4>
 						</hgroup>
 						<ul class='tasks'>
 							<li>Used <b>PHP</b> to write <b>custom Content Management 
@@ -19,7 +19,7 @@ include('../header.php');
 					<div class='workentry'>
 						<hgroup>
 							<h3 class='jobtitle'>PHP/SQL Developer</h3>
-							<h3 class='company'>Bluetone Communications</h3>
+							<h4 class='company'>Bluetone Communications</h4>
 						</hgroup>
 						<ul class='tasks'>
 							<li>Used <b>PHP, MySQL,</b> HTML to update and add features
@@ -34,7 +34,7 @@ include('../header.php');
 					<div class='workentry'>
 						<hgroup>
 							<h3 class='jobtitle'>PHP Developer</h3>
-							<h3 class='company'>Nationwide Brokerage Services</h3>
+							<h4 class='company'>Nationwide Brokerage Services</h4>
 						</hgroup>
 						<ul class='tasks'>
 							<li>Used HTML, CSS, <b>PHP,</b> and <b>Oracle SQL</b> to review,
@@ -58,7 +58,8 @@ include('../header.php');
 					</div>
 					<div class='workentry'>
 						<hgroup>
-							<h3 class='company'>DeviationPoint Media</h3>
+							<h3 class='jobtitle'>PHP Developer</h3>
+							<h4 class='company'>DeviationPoint Media</h4>
 						</hgroup>
 						<ul class='tasks'>
 							<li>Used <b>PHP</b> and <b>MS SQL</b> to review, maintain,
@@ -78,7 +79,7 @@ include('../header.php');
 					<div class='workentry'>
 						<hgroup>
 							<h3 class='jobtitle'>PHP Front End Developer</h3>
-							<h3 class='company'>JH Specialty</h3>
+							<h4 class='company'>JH Specialty</h4>
 						</hgroup>
 						<ul class='tasks'>
 							<li>Used PHP, HTML, and CSS to redesign the <b>web-based content 
@@ -94,7 +95,7 @@ include('../header.php');
 					<div class='workentry'>
 						<hgroup>
 							<h3 class='jobtitle'>Application Developer</h3>
-							<h3 class='company'>South Carolina Assistive Technology Program</h3>
+							<h4 class='company'>South Carolina Assistive Technology Program</h4>
 						</hgroup>
 						<ul class='tasks'>
 							<li>Used HTML, CSS, <b>PHP,</b> and <b>MySQL</b> to design and 

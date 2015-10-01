@@ -1,6 +1,6 @@
 <?php
 $titleadd = "JH Specialty";
-include_once("$_SERVER[DOCUMENT_ROOT]/header.php");
+include_once("../header.php");
 ?>
 
 	<h1>JH Specialty</h1>
@@ -20,9 +20,9 @@ include_once("$_SERVER[DOCUMENT_ROOT]/header.php");
 	</p>
 
 	<div id='breakdown'>
-	<img src='/images/PageView.png' alt='Screenshot of Kansas State Mockup for JH Specialty'>
+	<img src='images/PageView.png' alt='Screenshot of Kansas State Mockup for JH Specialty'>
 	</div>
 <?php
-include_once("$_SERVER[DOCUMENT_ROOT]/footer.php");
+include_once("../footer.php");
 ?>
 

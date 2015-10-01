@@ -18,12 +18,12 @@
 <body>
 	<div id="header" role="header">
 		<div id='banner' role="banner">
-			<!--<a href="../index.php">-->
+			<a href="../index.php">
 			<img src='../images/ShiningLightGallifreyanTiny.png' alt="Shining Light Web Development (in circular Gallifreyan)" />
 			<img class='desktop' src="../images/shininglightwhite.png" alt="Shining Light Web Development" />
 			<img class='mobile' src="../images/ShiningLightWebStacked.png" alt="Shining Light Web Development" />
-			<!--</a>-->
-			<a href="https://drive.google.com/file/d/0B_LO4acneHaoRTJKY1l4U1lOQm8/view?usp=sharing">Download Resume</a>
+			</a>
+			<a class="pull-right" href="https://drive.google.com/file/d/0B_LO4acneHaoRTJKY1l4U1lOQm8/view?usp=sharing">Download Resume</a>
 		</div> <!-- end banner -->
 	</div> <!-- end header -->
 	<div id='main'>

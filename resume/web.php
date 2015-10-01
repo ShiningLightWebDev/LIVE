@@ -41,6 +41,7 @@ include('../header.php');
 					</div>
 					<div class='workentry'>
 						<hgroup>
+							<h3 class='jobtitle'>Dev Ops Engineer</h3>
 							<h3 class='company'>Bluetone Communications</h3>
 						</hgroup>
 						<ul class='tasks'>
@@ -118,6 +119,7 @@ include('../header.php');
 					</div>
 					<div class='workentry'>
 						<hgroup>
+							<h3 class='jobtitle'>Front-End Developer</h3>
 							<h3 class='company'>JH Specialty</h3>
 						</hgroup>
 						<ul class='tasks'>

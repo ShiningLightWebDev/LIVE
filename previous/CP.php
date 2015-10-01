@@ -14,7 +14,7 @@ include_once("../header.php");
 	</p>
 
 	<div id='breakdown'>
-	<img src='/images/Albertsons.png' alt='Screenshot of Albertsons Savings page for Crown Partners'>
+	<img src='images/Albertsons.png' alt='Screenshot of Albertsons Savings page for Crown Partners'>
 	</div>
 <?php
 include_once("../footer.php");

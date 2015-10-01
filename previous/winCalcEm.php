@@ -153,7 +153,7 @@ if ((isset($_GET['btn'])) && ($_GET['btn']!="")) {
 
 <?php
 $titleadd = "Windows Calculator";
-include_once("$_SERVER[DOCUMENT_ROOT]/header.php");
+include_once("../header.php");
 ?>
 
 <P>
@@ -224,5 +224,5 @@ print "<td align='center' colspan=2><input type='button' value='Backspace' oncli
 </table>
 </div>
 <?php
-include_once("$_SERVER[DOCUMENT_ROOT]/footer.php");
+include_once("../footer.php");
 ?>

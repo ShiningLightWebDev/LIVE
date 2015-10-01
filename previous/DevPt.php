@@ -1,6 +1,6 @@
 <?php
 $titleadd = "DeviationPoint.com";
-include_once("$_SERVER[DOCUMENT_ROOT]/header.php");
+include_once("../header.php");
 ?>
 
 	<h1>Deviation Point Media</h1>
@@ -15,9 +15,9 @@ include_once("$_SERVER[DOCUMENT_ROOT]/header.php");
 	</p>
 
 	<div id='breakdown'>
-	<img src='/images/DeviationPoint.png' alt='Screenshot of DeviationPoint.com'>
+	<img src='images/DeviationPoint.png' alt='Screenshot of DeviationPoint.com'>
 	</div>
 <?php
-include_once("$_SERVER[DOCUMENT_ROOT]/footer.php");
+include_once("../footer.php");
 ?>
 

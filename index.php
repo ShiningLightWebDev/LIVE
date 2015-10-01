@@ -57,8 +57,8 @@ var current = 0; //start the counter at 0
 
 // place your images, text, etc in the array elements here
 var items = new Array();
-    items[0]="<img src='/images/CE.jpg' />"; 
-    items[1]="<img src='/images/CEmint.jpg' />";
+    items[0]="<img src='/images/CE.jpg' alt='ClaireElaine Johnson' />"; 
+    items[1]="<img src='/images/CEmint.jpg' alt='ClaireElaine Johnson' />";
 function rotater() {
     document.getElementById("profilePic").innerHTML = items[current];
     current = (current==items.length-1) ? 0 : current + 1;

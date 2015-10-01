@@ -1,6 +1,6 @@
 <?php
 $titleadd = "South Carolina Assistive Technology Program";
-include_once("$_SERVER[DOCUMENT_ROOT]/header.php");
+include_once("../header.php");
 ?>
 <h1>South Carolina Assitive Technology Program</h1>
 	<h2>Project Summary</h2>
@@ -23,28 +23,28 @@ include_once("$_SERVER[DOCUMENT_ROOT]/header.php");
 	<div id='breakdown'>
 	<section>
 		<a id='webtester'>
-		<img src='/images/WebTesterLogin.png' alt='Web Tester Login' title='Web Tester Login' />
+		<img src='images/WebTesterLogin.png' alt='Web Tester Login' title='Web Tester Login' />
 		</a>
 		<p>Using the questionnaire the SCATP administrators provided, the application 
 		allowed users to log in, complete new evaluations, and change previous evaluations. </p>
 	</section>
 	<section>
 		<a id='submission'>
-		<img src='/images/WebSubmissionForm.png' alt='Web Submission Form' title='Web Submission Form' />
+		<img src='images/WebSubmissionForm.png' alt='Web Submission Form' title='Web Submission Form' />
 		</a>
 		<p>Users would evaluate a site and answer the questions for each site. Later, they 
 		could search their previous evaluations and update the answers.</p>
 	</section>
 	<section>
 		<a id='admin'>
-		<img src='/images/AdminPage.png' alt='Admin Page' title='Admin Page' />
+		<img src='images/AdminPage.png' alt='Admin Page' title='Admin Page' />
 		</a>
 		<p>The application included an administrative interface that allows administrators to 
 		log in securely, search data, and print reports.</p>
 	</section>
 	<section>
 		<a id='sitereport'>
-		<img src='/images/SiteReport.png' alt='Admin Site Report' title='Admin Site Report' />
+		<img src='images/SiteReport.png' alt='Admin Site Report' title='Admin Site Report' />
 		</a>
 		<p>Here is a report that shows all the users that have submitted evaluations for 
 		www.notarealsite.com, and their answers to each question.</p>
@@ -52,5 +52,5 @@ include_once("$_SERVER[DOCUMENT_ROOT]/header.php");
 	</div>
 	
 <?php
-include_once("$_SERVER[DOCUMENT_ROOT]/footer.php");
+include_once("../footer.php");
 ?>
